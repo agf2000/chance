@@ -107,7 +107,7 @@ h1,h2,h3,h4,h5 { font-weight: normal; line-height: normal; }
 .viewmore a { font-size: 11px; text-transform: uppercase; font-size: 11px !important; }
 
 .newusers { min-width: 200px; }
-.newusers li a:hover { background; #eee; }
+.newusers li a:hover { background: #eee; }
 .newusers .userthumb { width: 35px; display: block; float: left; margin-right: 10px; }
 .newusers strong { display: block; line-height: normal; }
 .newusers small { color: #999; line-height: normal; }
@@ -1207,7 +1207,7 @@ input[type="search"], input[type="tel"], input[type="color"], .uneditable-input,
 	color: #fff; border: 0; padding: 10px 20px; -moz-border-radius: 0; -webkit-border-radius: 0;
 	border-radius: 0; margin: 0; }
 .tabbable > .nav-tabs > li > a:hover { background: rgba(255,255,255,0.1); }
-.tabbable > .nav-tabs > li.active > a { background: #fff; color: #0866c6; border: 0; padding-botom: 12px; }
+.tabbable > .nav-tabs > li.active > a { background: #fff; color: #0866c6; border: 0; padding-bottom: 12px; }
 .tabbable > .tab-content { margin-top: 0; border: 1px solid #0866c6; border-top: 0; background: #fff; padding: 20px; }
 
 .nav-tabs.nav-stacked > li:first-child > a,
