@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Online App",
   "main": "app.js",
+  "repository": "https://github.com/agf2000/chance.git",
   "author": "AGF",
   "license": "ISC",
   "dependencies": {
