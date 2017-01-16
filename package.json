@@ -1,0 +1,21 @@
+{
+  "name": "online-app",
+  "version": "1.0.0",
+  "description": "Online App",
+  "main": "app.js",
+  "author": "AGF",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-handlebars": "^3.0.0",
+    "express-session": "*",
+    "lodash": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "morgan": "*"
+  }
+}
