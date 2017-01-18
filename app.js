@@ -21,9 +21,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use(session({
-  secret: 'abra-kadabra',
-  saveUninitialized: true,
-  resave: true
+	secret: 'abra-kadabra',
+	saveUninitialized: true,
+	resave: true
 }));
 
 app.use(passport.initialize());
@@ -33,16 +33,16 @@ var authRouter = require("./routes/auth");
 app.use(authRouter);
 
 app.use(function (req, res, next) {
-  if (req.isAuthenticated()) {
-    res.locals.user = req.user;
-    next();
-    return;
-  }
-  res.redirect("/login");
+	if (req.isAuthenticated()) {
+		res.locals.user = req.user;
+		next();
+		return;
+	}
+	res.redirect("/login");
 });
 
 app.get('/', function (req, res) {
-  res.render("home", { title: "Home" });
+	res.render("home", { title: "Home" });
 });
 
 var adminRouter = require("./routes/admin");
@@ -52,5 +52,5 @@ var apiRouter = require("./routes/api");
 app.use("/api", apiRouter);
 
 app.listen(3000, function () {
-  console.log('Online-App listening on port 3000!');
+	console.log('Online-App listening on port 3000!');
 });
